@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Unknown-3</file>
+        <file>png-clipart-travel-tourism-travel-globe-world.png</file>
+    </qresource>
+</RCC>
