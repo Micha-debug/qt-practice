@@ -68,14 +68,66 @@
   <widget class="QLabel" name="ballLabel">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>300</y>
+     <x>180</x>
+     <y>310</y>
      <width>121</width>
      <height>131</height>
     </rect>
    </property>
    <property name="text">
     <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ballLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>310</y>
+     <width>121</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="scoreLabel">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>20</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lastLabel">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>20</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnTake">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>20</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Take</string>
    </property>
   </widget>
  </widget>

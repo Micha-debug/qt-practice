@@ -4,6 +4,9 @@
 #include <QWidget>
 #include <QPushButton>
 #include <QPropertyAnimation>
+#include <QRandomGenerator>
+#include <QTimer>
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class Widget;
@@ -36,12 +39,22 @@ private slots:
 
     void on_btnLeft_clicked();
 
+    void on_btnRight_clicked();
+
+    void resetState();
+
+    void on_btnTake_clicked();
+
 private:
+    int score = 0;
+    int countLeft = 0;
+    int countRight = 0;
     Ui::Widget *ui;
     //MovingObjectsWidget *movingObjectsWidget;
     QPixmap ballPixmap;
     QPixmap glassPixmap;
     QPoint ballPos;
     QPoint glassPos;
+    QTimer *resetTimer;
 };
 #endif // WIDGET_H
